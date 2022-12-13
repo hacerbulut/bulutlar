@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url(./clouds-7613361_960_720.webp);
+        background-size: cover;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    h1{
+        padding: 40px;
+    }
+    form{
+        display: inline-block;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        width: fit-content;
+        padding: 20px;
+        background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+border-radius: 20px;
+
+
+    }
+    label{
+        display: inline-block;
+        font-weight: 700;
+        width: 110px;
+        text-align: left;
+    }
+    div{
+        margin: 20px 0px;
+    }
+    input{
+        height: 40px;
+        text-align: center;
+        border-radius: 10px;  
+      }
+    .button input{
+        background-color: #df9fde;
+        padding: 0px 25px;
+        border-style:none ;
+
+    }
+      .button input:hover{
+        background-color: purple;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      input:focus{
+        text-align: left;
+      }  
+
+        
+
+
+
+      
+    </style>
+</head>
+<body>
+    <h1>LOGİN PAGE</h1>
+    <form action="">
+        <div class="username" >
+            <label for="username">Usernane</label>
+            <input type="text" name="Username" id="Username" placeholder="Enter Your Username">
+        </div>
+        <div class="password">
+            <label for="Password">Password</label>
+            <input type="text" name="Password" id="Username" placeholder="Enter Your Password">
+        </div>
+        <div class="Security Code" >
+            <label for="Security Code">Security Code</label>
+            <input type="number" name="Security Code" id="Username" placeholder="Enter Your Security Code">
+        </div>
+        <div class="button">
+            <input type="submit" value="login">
+            <input type="reset" value="clear">
+        </div>
+
+
+
+
+    </form>
+
+    
+</body>
+</html>
